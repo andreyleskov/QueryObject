@@ -41,14 +41,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cat.cs" />
+    <Compile Include="CatsForLadies.cs" />
     <Compile Include="Gender.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReportBuilder.cs" />
-    <Compile Include="TopCutiestCatsForLadies.cs" />
+    <Compile Include="TopCutiesCats.cs" />
+    <Compile Include="TopLadiesCats.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\QueryObject\Infrastructure\Infrastructure.csproj">
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{B604F0ED-6D34-40F7-A858-5A1C19A1F4B1}</Project>
       <Name>Infrastructure</Name>
     </ProjectReference>

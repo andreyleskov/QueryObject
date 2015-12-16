@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryObject", "QueryObject.csproj", "{0A65502B-6E26-44DB-A3BF-B741C9895171}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryObject", "QueryObject\QueryObject.csproj", "{0A65502B-6E26-44DB-A3BF-B741C9895171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{CE84BCEB-8702-4EF8-A4E9-18F85D05CAB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{CE84BCEB-8702-4EF8-A4E9-18F85D05CAB3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistance", "Persistance\Persistance.csproj", "{8D360ED3-E857-4315-BFFF-40E9371F0D24}"
 EndProject

@@ -18,10 +18,8 @@ namespace QueryObject
     {
         public IContainer ConfigureContainer(IContainer container)
         {
-            
+            return container;
         }
     }
-
-
 
 }
