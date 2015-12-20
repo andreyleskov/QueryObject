@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Autofac;
+using Domain;
+using Infrastructure;
 
 namespace QueryObject
 {
@@ -11,15 +9,19 @@ namespace QueryObject
     {
         static void Main(string[] args)
         {
+
         }
     }
 
-    public class CompositionRoot
-    {
-        public IContainer ConfigureContainer(IContainer container)
-        {
-            return container;
-        }
-    }
-
+    //public class CompositionRoot
+    //{
+    //    public ContainerBuilder ConfigureContainer(ContainerBuilder container)
+    //    {
+    //        container.Register<TopCutiestCatsForLadies>()
+    //                 .As<IQuery<Cat, int>>()
+    //                 .;
+    //        container.Register<ReportBuilder>().AsSelf();
+    //        return container;
+    //    }
+    //}
 }

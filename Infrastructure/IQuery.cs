@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace Infrastructure
 {
+
     public interface IQuery<T>
     {
         IReadOnlyCollection<T> Execute();
+    }
+
+    public interface ISingleQuery<T>
+    {
+        T Execute();
     }
 
     public interface IQuery<T,U>

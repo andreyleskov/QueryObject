@@ -9,7 +9,7 @@ namespace Infrastructure
 
     public interface ICriteria<T,U>
     {
-        IQueryable<T> Execute(U p1);
+        IQueryable<T> Apply(U namePart);
     }
 
     public interface ICriteria<T,U,V>

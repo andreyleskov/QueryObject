@@ -16,9 +16,9 @@ namespace Domain
             _mostPopularCatsForLadyesQuery = mostPopularCatsForLadyesQuery;
         }
 
-        public IReadOnlyCollection<string> MostPopularCatNamesForLadies()
+        public IReadOnlyCollection<string> MostPopularCatNamesForLadies(int top)
         {
-            return _mostPopularCatsForLadyesQuery.Execute(10).Select(c => c.Name).ToArray();
+            return _mostPopularCatsForLadyesQuery.Execute(top).Select(c => c.Name).ToArray();
         } 
     }
 }

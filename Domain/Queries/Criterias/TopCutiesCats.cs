@@ -13,7 +13,7 @@ namespace Domain
         }
 
 
-        public IQueryable<Cat> Execute(int top)
+        public IQueryable<Cat> Apply(int top)
         {
             return _cats.OrderByDescending(c => c.CuteFactor).Take(top);
         }
